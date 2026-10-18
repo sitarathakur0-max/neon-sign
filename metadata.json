@@ -1,0 +1,7 @@
+{
+  "name": "Neon Sign Board - Pakpattan",
+  "description": "Custom illuminated signboards, 3D channel letters, and LED signage studio located at Nagina Chowk, Pakpattan, Punjab, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

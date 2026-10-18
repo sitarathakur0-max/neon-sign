@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0c0e12;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Controlled neon illumination utilities */
+.glow-accent {
+  box-shadow: 0 0 24px -4px rgba(168, 85, 247, 0.28), 0 0 8px 0 rgba(168, 85, 247, 0.15);
+}
+
+.glow-warm {
+  box-shadow: 0 0 24px -4px rgba(254, 243, 199, 0.22), 0 0 8px 0 rgba(254, 243, 199, 0.12);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 16px rgba(168, 85, 247, 0.45);
+}
+
+.text-glow-warm {
+  text-shadow: 0 0 16px rgba(255, 247, 237, 0.4);
+}
+
+/* Subtle grid texture overlay for dark editorial feel */
+.bg-studio-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
